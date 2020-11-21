@@ -1,0 +1,2 @@
+# springapp-appinsights
+Simple app 
