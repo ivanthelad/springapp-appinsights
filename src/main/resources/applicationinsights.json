@@ -1,0 +1,33 @@
+{
+  "role": {
+    "name": "Insights"
+  },
+  "sampling": {
+    "percentage": 50
+  },
+  "jmxMetrics": [
+
+  ],
+  "instrumentation": {
+    "micrometer": {
+      "enabled": true
+    },
+    "logging": {
+      "level": "INFO"
+    }
+
+  },
+  "heartbeat": {
+    "intervalSeconds": 30
+  },
+  "selfDiagnostics": {
+    "destination": "console",
+    "level": "WARN"
+  },
+  "preview": {
+    "processors": [
+    ]
+  }
+}
+
+
